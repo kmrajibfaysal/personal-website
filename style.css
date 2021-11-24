@@ -15,7 +15,7 @@ section {
 
 p {
   font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: dimgray;
 }
 .paragraph {
@@ -69,7 +69,7 @@ button {
 }
 
 .bio-text {
-  line-height:2rem;
+  line-height: 2rem;
 }
 
 .bio-section {
@@ -79,4 +79,27 @@ button {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.latest-work {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/latest-work-bg.png);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.work-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.work-container img {
+  width: 90%;
+  padding: 2rem;
 }
